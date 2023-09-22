@@ -1,0 +1,63 @@
+#contenedor_principal {
+    width: 1000px;
+    height: 800px;
+    border: 1px solid black;
+}
+
+header {
+    width: 1000px;
+    height: 150px;
+    border: 1px black solid;
+    text-align: center;
+    
+}
+
+.Nombre{
+    padding-top: 55px;
+}
+
+nav {
+    width: 1000px;
+    float: both;
+    
+}
+
+.MenuPrincipal{
+    overflow: hidden;
+  background-color: white;
+  border-radius: 30px;
+  }
+  
+  .MenuPrincipal a{
+    float: left;
+  /*font-size: 16px; */
+  color: black; /*Aquí puedes cambiar el color de letra de los links sin subopciones (Home y News) */
+  text-align: center;
+  /*padding: 14px 16px;*/
+  text-decoration: none;
+  }
+
+aside {
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+    float: left;
+    background-color: chocolate;
+
+}
+
+section {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: aqua;
+
+}
+
+footer {
+    width: 1000px;
+    height: 150px;
+    /*border: 1px solid black;*/
+    float: left;
+    background-color: violet;
+}
